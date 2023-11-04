@@ -1,0 +1,337 @@
+{
+  "name": "EXP4-DMA",
+  "type": "ARM",
+  "dependenceList": [],
+  "srcDirs": [
+    ".eide/deps"
+  ],
+  "virtualFolder": {
+    "name": "<virtual_root>",
+    "files": [],
+    "folders": [
+      {
+        "name": "CMSIS",
+        "files": [
+          {
+            "path": "CMSIS/core_cm3.c"
+          },
+          {
+            "path": "CMSIS/core_cm3.h"
+          },
+          {
+            "path": "CMSIS/startup_stm32f10x_md.s"
+          },
+          {
+            "path": "CMSIS/stm32f10x_conf.h"
+          },
+          {
+            "path": "CMSIS/stm32f10x_it.c"
+          },
+          {
+            "path": "CMSIS/stm32f10x_it.h"
+          },
+          {
+            "path": "CMSIS/stm32f10x.h"
+          },
+          {
+            "path": "CMSIS/system_stm32f10x.c"
+          },
+          {
+            "path": "CMSIS/system_stm32f10x.h"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "FWLIB",
+        "files": [
+          {
+            "path": "FWLIB/src/misc.c"
+          },
+          {
+            "path": "FWLIB/src/stm32f10x_adc.c"
+          },
+          {
+            "path": "FWLIB/src/stm32f10x_bkp.c"
+          },
+          {
+            "path": "FWLIB/src/stm32f10x_can.c"
+          },
+          {
+            "path": "FWLIB/src/stm32f10x_cec.c"
+          },
+          {
+            "path": "FWLIB/src/stm32f10x_crc.c"
+          },
+          {
+            "path": "FWLIB/src/stm32f10x_dac.c"
+          },
+          {
+            "path": "FWLIB/src/stm32f10x_dbgmcu.c"
+          },
+          {
+            "path": "FWLIB/src/stm32f10x_dma.c"
+          },
+          {
+            "path": "FWLIB/src/stm32f10x_exti.c"
+          },
+          {
+            "path": "FWLIB/src/stm32f10x_flash.c"
+          },
+          {
+            "path": "FWLIB/src/stm32f10x_fsmc.c"
+          },
+          {
+            "path": "FWLIB/src/stm32f10x_gpio.c"
+          },
+          {
+            "path": "FWLIB/src/stm32f10x_i2c.c"
+          },
+          {
+            "path": "FWLIB/src/stm32f10x_iwdg.c"
+          },
+          {
+            "path": "FWLIB/src/stm32f10x_pwr.c"
+          },
+          {
+            "path": "FWLIB/src/stm32f10x_rcc.c"
+          },
+          {
+            "path": "FWLIB/src/stm32f10x_rtc.c"
+          },
+          {
+            "path": "FWLIB/src/stm32f10x_sdio.c"
+          },
+          {
+            "path": "FWLIB/src/stm32f10x_spi.c"
+          },
+          {
+            "path": "FWLIB/src/stm32f10x_tim.c"
+          },
+          {
+            "path": "FWLIB/src/stm32f10x_usart.c"
+          },
+          {
+            "path": "FWLIB/src/stm32f10x_wwdg.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "Hardware",
+        "files": [
+          {
+            "path": "Hardware/key.c"
+          },
+          {
+            "path": "Hardware/key.h"
+          },
+          {
+            "path": "Hardware/led.c"
+          },
+          {
+            "path": "Hardware/led.h"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "System",
+        "files": [
+          {
+            "path": "System/customdef.c"
+          },
+          {
+            "path": "System/customdef.h"
+          },
+          {
+            "path": "System/delay.c"
+          },
+          {
+            "path": "System/delay.h"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "USER",
+        "files": [
+          {
+            "path": "USER/main.c"
+          }
+        ],
+        "folders": []
+      }
+    ]
+  },
+  "outDir": "build",
+  "deviceName": "GD32F103CB",
+  "packDir": ".pack/GigaDevice/GD32F10x_DFP.2.0.1",
+  "miscInfo": {
+    "uid": "6e4e022ac270a548b37b18a92fff4c32"
+  },
+  "targets": {
+    "Example 1": {
+      "excludeList": [],
+      "toolchain": "AC5",
+      "compileConfig": {
+        "cpuType": "Cortex-M3",
+        "floatingPointHardware": "none",
+        "scatterFilePath": "",
+        "useCustomScatterFile": false,
+        "storageLayout": {
+          "RAM": [
+            {
+              "tag": "RAM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "RAM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "RAM",
+              "id": 3,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "IRAM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x20000000",
+                "size": "0x5000"
+              },
+              "isChecked": true,
+              "noInit": false
+            },
+            {
+              "tag": "IRAM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            }
+          ],
+          "ROM": [
+            {
+              "tag": "ROM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "ROM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "ROM",
+              "id": 3,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "IROM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x8000000",
+                "size": "0x20000"
+              },
+              "isChecked": true,
+              "isStartup": true
+            },
+            {
+              "tag": "IROM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            }
+          ]
+        },
+        "options": "null"
+      },
+      "uploader": "STLink",
+      "uploadConfig": {
+        "bin": "",
+        "proType": "SWD",
+        "resetMode": "default",
+        "runAfterProgram": true,
+        "speed": 4000,
+        "address": "0x8000000",
+        "elFile": "None",
+        "optionBytes": ".eide/example 1.st.option.bytes.ini",
+        "otherCmds": ""
+      },
+      "uploadConfigMap": {
+        "JLink": {
+          "bin": "",
+          "baseAddr": "",
+          "cpuInfo": {
+            "vendor": "null",
+            "cpuName": "null"
+          },
+          "proType": 1,
+          "speed": 8000,
+          "otherCmds": ""
+        }
+      },
+      "custom_dep": {
+        "name": "default",
+        "incList": [
+          "FWLIB/inc",
+          "CMSIS",
+          ".cmsis/include",
+          "RTE/_Example 1",
+          ".eide/deps",
+          "System",
+          "Hardware"
+        ],
+        "libList": [],
+        "sourceDirList": [],
+        "defineList": [
+          "STM32F10X_MD",
+          "GD32F10X_MD",
+          "USE_STDPERIPH_DRIVER"
+        ]
+      }
+    }
+  },
+  "version": "3.3"
+}
